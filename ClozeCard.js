@@ -7,7 +7,7 @@
 // The constructed object should have a fullText property that contains only the full text.
 // The constructor should throw or log an error when the cloze deletion does not appear in the input text.
 // Use prototypes to attach these methods, wherever possible.
-var fs = require("fs");
+
 var inquirer = require("inquirer");
 
 var ClozeCard = function(text, partial, cloze) {
